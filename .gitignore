@@ -16,3 +16,36 @@
 *.exe
 *.out
 *.app
+
+# Autoconf generated files
+Makefile
+ac_config.h
+config.*
+doc/Makefile
+examples/Makefile
+examples/*/.deps/
+examples/*/Makefile
+
+lib/.deps/
+lib/Makefile
+lib/libconfig*
+libtool
+stamp-h1
+tests/.deps/
+tests/Makefile
+tinytest/.deps/
+tinytest/Makefile
+
+# Test files
+examples/c++/.libs/
+examples/c++/example1
+examples/c++/example2
+examples/c++/example3
+examples/c++/example4
+examples/c/.libs/
+examples/c/example1
+examples/c/example2
+examples/c/example3
+*/.libs/
+
+tests/libconfig_tests
